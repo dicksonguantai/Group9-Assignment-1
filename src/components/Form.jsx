@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = () => {
   return (
-    <form>
+    <form className='Form'>
       <label htmlFor="productName">Product Name:</label>
       <input type="text" id="productName" />
 
