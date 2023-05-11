@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Styles for the App component */
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for the Card component */
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Card img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.Card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Card p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Styles for the Form component */
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Form label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.Form input {
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Form button {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Form button:hover {
+  background-color: #0062cc;
+}
+
+.Form button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
+}
